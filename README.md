@@ -26,7 +26,6 @@
   <img src="https://img.shields.io/badge/DOCKER-2E3440?style=for-the-badge&logo=docker&logoColor=81A1C1" />
   <img src="https://img.shields.io/badge/JAVA-2E3440?style=for-the-badge&logo=openjdk&logoColor=EBCB8B" />
   <img src="https://img.shields.io/badge/REACT-2E3440?style=for-the-badge&logo=react&logoColor=8FBCBB" />
-  <img src="https://img.shields.io/badge/NEXT.JS-2E3440?style=for-the-badge&logo=nextdotjs&logoColor=ECEFF4" />
   <img src="https://img.shields.io/badge/NODE.JS-2E3440?style=for-the-badge&logo=node.js&logoColor=A3BE8C" />
   <img src="https://img.shields.io/badge/LINUX-2E3440?style=for-the-badge&logo=linux&logoColor=EBCB8B" />
   <img src="https://img.shields.io/badge/DATADOG-2E3440?style=for-the-badge&logo=datadog&logoColor=B48EAD" />
