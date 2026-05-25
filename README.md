@@ -2,10 +2,9 @@
 ╭─ tim@github ─────────────────────────────────────────────────────────────────╮
 │                                                                              │
 │  ⚡ role        Senior Software Engineer                                      │
-│  ◈ building    AI infrastructure @ FirmPilot                                 │
-│  ◆ focus       distributed systems · GraphQL · platform engineering          │
-│  ● interests   observability · DX · scalable architecture                    │
-│  ➜ currently   shipping high-velocity SaaS systems                           │
+│  ◈ building    AI Marketing Platform @ FirmPilot                             │
+│  ◆ focus       system design · distributed systems · observability           │
+│  ➜ currently   shipping high-velocity, clean code                            │
 │                                                                              │
 ╰──────────────────────────────────────────────────────────────────────────────╯
 ```
