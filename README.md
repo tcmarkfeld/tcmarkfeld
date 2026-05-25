@@ -35,3 +35,6 @@
   <img src="https://img.shields.io/badge/DATADOG-2E3440?style=for-the-badge&logo=datadog&logoColor=B48EAD" />
   <img src="https://img.shields.io/badge/DYNATRACE-2E3440?style=for-the-badge&logo=dynatrace&logoColor=A3BE8C" />
 </p>
+
+## github stats
+![tcmarkfeld's GitHub stats](https://github-readme-stats.vercel.app/api?username=tcmarkfeld&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
