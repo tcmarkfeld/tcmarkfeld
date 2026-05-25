@@ -1,16 +1,38 @@
-## Hi there 👋
+```text
+╭─ tim@github ─────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  ⚡ role        Senior Software Engineer                                      │
+│  ◈ building    AI infrastructure @ FirmPilot                                 │
+│  ◆ focus       distributed systems · GraphQL · platform engineering          │
+│  ● interests   observability · DX · scalable architecture                    │
+│  ➜ currently   shipping high-velocity SaaS systems                           │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+```
 
-<!--
-**tcmarkfeld/tcmarkfeld** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## stack
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="left">
+  <img src="https://img.shields.io/badge/C%23-2E3440?style=for-the-badge&logo=csharp&logoColor=81A1C1" />
+  <img src="https://img.shields.io/badge/JAVA-2E3440?style=for-the-badge&logo=openjdk&logoColor=EBCB8B" />
+  <img src="https://img.shields.io/badge/POSTGRESQL-2E3440?style=for-the-badge&logo=postgresql&logoColor=81A1C1" />
+  <img src="https://img.shields.io/badge/SQL_SERVER-2E3440?style=for-the-badge&logo=microsoftsqlserver&logoColor=BF616A" />
+  <img src="https://img.shields.io/badge/PYTHON-2E3440?style=for-the-badge&logo=python&logoColor=EBCB8B" />
+  <img src="https://img.shields.io/badge/TYPESCRIPT-2E3440?style=for-the-badge&logo=typescript&logoColor=88C0D0" />
+  <img src="https://img.shields.io/badge/TERRAFORM-2E3440?style=for-the-badge&logo=terraform&logoColor=B48EAD" />
+  <img src="https://img.shields.io/badge/.NET-2E3440?style=for-the-badge&logo=dotnet&logoColor=88C0D0" />
+  <img src="https://img.shields.io/badge/REACT-2E3440?style=for-the-badge&logo=react&logoColor=8FBCBB" />
+  <img src="https://img.shields.io/badge/NEXT.JS-2E3440?style=for-the-badge&logo=nextdotjs&logoColor=ECEFF4" />
+  <img src="https://img.shields.io/badge/NODE.JS-2E3440?style=for-the-badge&logo=node.js&logoColor=A3BE8C" />
+  <img src="https://img.shields.io/badge/ENTITY_FRAMEWORK-2E3440?style=for-the-badge&logo=.net&logoColor=B48EAD" />
+  <img src="https://img.shields.io/badge/REACT_NATIVE-2E3440?style=for-the-badge&logo=react&logoColor=88C0D0" />
+  <img src="https://img.shields.io/badge/AWS-2E3440?style=for-the-badge&logo=amazonaws&logoColor=EBCB8B" />
+  <img src="https://img.shields.io/badge/GCP-2E3440?style=for-the-badge&logo=googlecloud&logoColor=88C0D0" />
+  <img src="https://img.shields.io/badge/KAFKA-2E3440?style=for-the-badge&logo=apachekafka&logoColor=ECEFF4" />
+  <img src="https://img.shields.io/badge/GRAPHQL-2E3440?style=for-the-badge&logo=graphql&logoColor=B48EAD" />
+  <img src="https://img.shields.io/badge/MASSTRANSIT-2E3440?style=for-the-badge&logo=.net&logoColor=A3BE8C" />
+  <img src="https://img.shields.io/badge/DOCKER-2E3440?style=for-the-badge&logo=docker&logoColor=81A1C1" />
+  <img src="https://img.shields.io/badge/LINUX-2E3440?style=for-the-badge&logo=linux&logoColor=EBCB8B" />
+  <img src="https://img.shields.io/badge/DATADOG-2E3440?style=for-the-badge&logo=datadog&logoColor=B48EAD" />
+  <img src="https://img.shields.io/badge/DYNATRACE-2E3440?style=for-the-badge&logo=dynatrace&logoColor=A3BE8C" />
+</p>
