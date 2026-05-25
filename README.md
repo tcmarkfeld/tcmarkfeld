@@ -37,4 +37,6 @@
 </p>
 
 ## github stats
-![tcmarkfeld's GitHub stats](https://github-readme-stats.vercel.app/api?username=tcmarkfeld&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+<p align="left">
+  <img height="170" src="https://github-readme-stats-omega-peach.vercel.app/api?username=tcmarkfeld&show_icons=false&count_private=true&hide=stars,issues&hide_rank=true&theme=nord&hide_border=true&bg_color=2E3440&title_color=81A1C1&text_color=D8DEE9" />
+</p>
