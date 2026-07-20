@@ -1,12 +1,8 @@
 ```text
-╭─ tim@github ─────────────────────────────────────────────────────────────────╮
-│                                                                              │
-│  ⚡ role        Senior Software Engineer                                      │
-│  ◈ building    AI-driven growth platforms @ FirmPilot                        │
-│  ◆ focus       system design · platform engineering · observability          │
-│  ➜ currently   shipping high-velocity, clean code                            │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
+⚡ role: Senior Software Engineer
+◈ building: AI-driven growth platforms @ FirmPilot
+◆ focus: system design · platform engineering · observability
+➜ currently: shipping high-velocity, clean code
 ```
 
 > building resilient systems that survive scale
@@ -30,9 +26,4 @@
   <img src="https://img.shields.io/badge/LINUX-2E3440?style=for-the-badge&logo=linux&logoColor=EBCB8B" />
   <img src="https://img.shields.io/badge/DATADOG-2E3440?style=for-the-badge&logo=datadog&logoColor=B48EAD" />
   <img src="https://img.shields.io/badge/PYTHON-2E3440?style=for-the-badge&logo=python&logoColor=EBCB8B" />
-</p>
-
-## github stats
-<p align="left">
-  <img height="170" src="https://github-readme-stats-omega-peach.vercel.app/api?username=tcmarkfeld&show_icons=false&hide_title=true&count_private=true&hide=stars,issues&hide_rank=true&theme=nord&hide_border=true&bg_color=2E3440&title_color=81A1C1&text_color=D8DEE9" />
 </p>
