@@ -1,9 +1,7 @@
-```text
-⚡ role: Senior Software Engineer
-◈ building: AI-driven growth platforms @ FirmPilot
-◆ focus: system design · platform engineering · observability
-➜ currently: shipping high-velocity, clean code
-```
+> role: Senior Software Engineer
+> building: AI-driven growth platforms @ FirmPilot
+> focus: system design · platform engineering · observability
+> currently: shipping high-velocity, clean code
 
 > building resilient systems that survive scale
 
