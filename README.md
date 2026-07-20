@@ -2,7 +2,7 @@
 
 > building: AI-driven growth platforms @ FirmPilot
 
-> focus: system design · platform engineering · observability
+> focus: system design, platform engineering, observability
 
 > currently: shipping high-velocity, clean code
 
