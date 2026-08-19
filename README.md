@@ -6,8 +6,6 @@
 
 > currently: shipping high-velocity, clean code
 
-building resilient systems that survive scale
-
 ## stack
 
 <p align="left">
