@@ -1,1 +1,1 @@
-![Header](./timothy-system-map.svg)
+![Header](./timothy-systems-map.svg)
