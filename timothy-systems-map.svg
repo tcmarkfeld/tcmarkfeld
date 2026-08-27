@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510" role="img" aria-labelledby="title desc">
+  <title id="title">Timothy Markfeld — systems engineer skill map</title>
+  <desc id="desc">Animated technical system map showing application, distributed systems, and platform engineering skills.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#0b1424"/>
+      <stop offset="1" stop-color="#0c0f1a"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4de2c5"/>
+      <stop offset="0.48" stop-color="#6fa8ff"/>
+      <stop offset="1" stop-color="#b78cff"/>
+    </linearGradient>
+    <linearGradient id="titleGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4f8ff"/>
+      <stop offset="0.7" stop-color="#b8c9e6"/>
+      <stop offset="1" stop-color="#6fa8ff"/>
+    </linearGradient>
+    <radialGradient id="auroraGreen">
+      <stop offset="0" stop-color="#2ed9bd" stop-opacity=".34"/>
+      <stop offset=".5" stop-color="#2ed9bd" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#2ed9bd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraBlue">
+      <stop offset="0" stop-color="#4b83ff" stop-opacity=".28"/>
+      <stop offset=".5" stop-color="#4b83ff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#4b83ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraViolet">
+      <stop offset="0" stop-color="#a667ff" stop-opacity=".24"/>
+      <stop offset=".5" stop-color="#a667ff" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#a667ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8ba4ca" stroke-opacity=".055" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1" fill="#8ba4ca" fill-opacity=".13"/>
+    </pattern>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="auroraBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+    <clipPath id="frameClip"><rect x="1" y="1" width="1198" height="508" rx="24"/></clipPath>
+  </defs>
+
+  <style>
+    .label { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1.8px; }
+    .skill { font: 650 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .3px; fill: #dce8fb; }
+    .micro { font: 500 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1.2px; fill: #6f829e; }
+    .trace { fill: none; stroke: #6fa8ff; stroke-width: 1.2; stroke-opacity: .3; stroke-dasharray: 5 8; animation: flow 8s linear infinite; }
+    .trace.green { stroke: #4de2c5; animation-duration: 6s; }
+    .trace.violet { stroke: #b78cff; animation-duration: 10s; }
+    .node { fill: #0f1b2d; stroke: #29405f; stroke-width: 1; }
+    .node:hover { stroke: #6fa8ff; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .pulse.delay-1 { animation-delay: -.9s; }
+    .pulse.delay-2 { animation-delay: -1.8s; }
+    .aurora-a { animation: driftA 13s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .aurora-b { animation: driftB 17s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .aurora-c { animation: driftC 19s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes flow { to { stroke-dashoffset: -52; } }
+    @keyframes pulse { 0%,100% { opacity:.35; transform:scale(.8); } 50% { opacity:1; transform:scale(1.25); } }
+    @keyframes driftA { 0%,100% { transform:translate(-90px,-35px) scale(.9); opacity:.4; } 50% { transform:translate(270px,55px) scale(1.08); opacity:.7; } }
+    @keyframes driftB { 0%,100% { transform:translate(180px,-80px) scale(1.05); opacity:.35; } 50% { transform:translate(-220px,80px) scale(.88); opacity:.65; } }
+    @keyframes driftC { 0%,100% { transform:translate(-120px,70px) scale(.9); opacity:.3; } 50% { transform:translate(210px,-60px) scale(1.12); opacity:.58; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1200" height="510" rx="24" fill="url(#bg)"/>
+    <g filter="url(#auroraBlur)">
+      <ellipse class="aurora-a" cx="120" cy="160" rx="230" ry="160" fill="url(#auroraGreen)"/>
+      <ellipse class="aurora-b" cx="900" cy="100" rx="280" ry="180" fill="url(#auroraBlue)"/>
+      <ellipse class="aurora-c" cx="640" cy="430" rx="250" ry="150" fill="url(#auroraViolet)"/>
+    </g>
+    <rect width="1200" height="510" fill="url(#grid)"/>
+    <path d="M0 1H1200" stroke="url(#edge)" stroke-width="3"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="508" rx="24" fill="none" stroke="#31425d"/>
+
+  <!-- Identity -->
+  <g transform="translate(58 49)">
+    <text x="0" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="34" font-weight="750" letter-spacing="-1" fill="url(#titleGlow)">TIMOTHY MARKFELD</text>
+    <text x="2" y="63" class="label" fill="#8296b4">SENIOR SOFTWARE ENGINEER</text>
+  </g>
+
+  <!-- Layer rails -->
+  <path class="trace green" d="M96 210H1110"/>
+  <path class="trace" d="M96 330H1110"/>
+  <path class="trace violet" d="M96 450H1110"/>
+
+  <!-- Layer labels -->
+  <g transform="translate(58 179)">
+    <text class="label" fill="#4de2c5">01 / APPLICATION</text>
+    <text y="120" class="label" fill="#6fa8ff">02 / PLATFORM</text>
+    <text y="240" class="label" fill="#b78cff">03 / MISC.</text>
+  </g>
+
+  <!-- Application skills -->
+  <g transform="translate(236 183)">
+    <g transform="translate(0)"><rect class="node" width="126" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#4de2c5"/><text class="skill" x="32" y="32">TypeScript</text></g>
+    <g transform="translate(140)"><rect class="node" width="104" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#4de2c5"/><text class="skill" x="32" y="32">React</text></g>
+    <g transform="translate(258)"><rect class="node" width="112" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#4de2c5"/><text class="skill" x="32" y="32">Node.js</text></g>
+    <g transform="translate(384)"><rect class="node" width="92" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#4de2c5"/><text class="skill" x="32" y="32">Java</text></g>
+    <g transform="translate(490)"><rect class="node" width="84" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#4de2c5"/><text class="skill" x="32" y="32">.NET</text></g>
+    <g transform="translate(588)"><rect class="node" width="104" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#4de2c5"/><text class="skill" x="32" y="32">Python</text></g>
+  </g>
+
+  <!-- Platform skills -->
+  <g transform="translate(236 303)">
+    <g transform="translate(0)"><rect class="node" width="80" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#6fa8ff"/><text class="skill" x="32" y="32">AWS</text></g>
+    <g transform="translate(94)"><rect class="node" width="80" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#6fa8ff"/><text class="skill" x="32" y="32">GCP</text></g>
+    <g transform="translate(188)"><rect class="node" width="104" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#6fa8ff"/><text class="skill" x="32" y="32">Docker</text></g>
+    <g transform="translate(306)"><rect class="node" width="124" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#6fa8ff"/><text class="skill" x="32" y="32">Terraform</text></g>
+    <g transform="translate(444)"><rect class="node" width="96" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#6fa8ff"/><text class="skill" x="32" y="32">Linux</text></g>
+    <g transform="translate(554)"><rect class="node" width="116" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#6fa8ff"/><text class="skill" x="32" y="32">Datadog</text></g>
+  </g>
+
+  <!-- Miscellaneous skills -->
+  <g transform="translate(236 423)">
+    <g transform="translate(0)"><rect class="node" width="116" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#b78cff"/><text class="skill" x="32" y="32">GraphQL</text></g>
+    <g transform="translate(130)"><rect class="node" width="132" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#b78cff"/><text class="skill" x="32" y="32">MassTransit</text></g>
+    <g transform="translate(276)"><rect class="node" width="100" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#b78cff"/><text class="skill" x="32" y="32">Kafka</text></g>
+    <g transform="translate(390)"><rect class="node" width="136" height="54" rx="9"/><circle cx="18" cy="27" r="4" fill="#b78cff"/><text class="skill" x="32" y="32">PostgreSQL</text></g>
+  </g>
+
+  <!-- Live signal markers -->
+  <g filter="url(#softGlow)">
+    <circle cx="1110" cy="210" r="4" fill="#4de2c5" class="pulse"/>
+    <circle cx="1110" cy="330" r="4" fill="#6fa8ff" class="pulse delay-1"/>
+    <circle cx="1110" cy="450" r="4" fill="#b78cff" class="pulse delay-2"/>
+  </g>
+
+</svg>
